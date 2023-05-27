@@ -1,0 +1,410 @@
+[
+ {
+  "Htno": "19F91A0448",
+  "Subcode": "R1941042",
+  "Subname": "DATA COMMUNICATIONS & COMPUTER NETWORKS",
+  "Internals": 16,
+  "Grade": "D",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0448",
+  "Subcode": "R1941043",
+  "Subname": "DIGITAL IMAGE AND VIDEO PROCESSING",
+  "Internals": 16,
+  "Grade": "C",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0448",
+  "Subcode": "R1941044",
+  "Subname": "INTERNET OF THINGS LAB",
+  "Internals": 15,
+  "Grade": "A",
+  "Credits": 1.5
+ },
+ {
+  "Htno": "19F91A0448",
+  "Subcode": "R1941045",
+  "Subname": "MICROWAVE AND OPTICAL COMMUNICATIONENGIN",
+  "Internals": 19,
+  "Grade": "O",
+  "Credits": 1.5
+ },
+ {
+  "Htno": "19F91A0448",
+  "Subcode": "R1941046",
+  "Subname": "PROJECT-PART I",
+  "Internals": 19,
+  "Grade": "O",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0448",
+  "Subcode": "R194104C",
+  "Subname": "SMARTSENSORS",
+  "Internals": 18,
+  "Grade": "D",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0448",
+  "Subcode": "R194104H",
+  "Subname": "EMBEDDED SYSTEMS(COMMON TO ECE & EIE)",
+  "Internals": 17,
+  "Grade": "D",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0449",
+  "Subcode": "R1941041",
+  "Subname": "MICROWAVE AND OPTICAL COMMUNICATION ENGI",
+  "Internals": 18,
+  "Grade": "D",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0449",
+  "Subcode": "R1941042",
+  "Subname": "DATA COMMUNICATIONS & COMPUTER NETWORKS",
+  "Internals": 17,
+  "Grade": "C",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0449",
+  "Subcode": "R1941043",
+  "Subname": "DIGITAL IMAGE AND VIDEO PROCESSING",
+  "Internals": 16,
+  "Grade": "C",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0449",
+  "Subcode": "R1941044",
+  "Subname": "INTERNET OF THINGS LAB",
+  "Internals": 19,
+  "Grade": "O",
+  "Credits": 1.5
+ },
+ {
+  "Htno": "19F91A0449",
+  "Subcode": "R1941045",
+  "Subname": "MICROWAVE AND OPTICAL COMMUNICATIONENGIN",
+  "Internals": 20,
+  "Grade": "O",
+  "Credits": 1.5
+ },
+ {
+  "Htno": "19F91A0449",
+  "Subcode": "R1941046",
+  "Subname": "PROJECT-PART I",
+  "Internals": 20,
+  "Grade": "O",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0449",
+  "Subcode": "R194104C",
+  "Subname": "SMARTSENSORS",
+  "Internals": 19,
+  "Grade": "A",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0449",
+  "Subcode": "R194104H",
+  "Subname": "EMBEDDED SYSTEMS(COMMON TO ECE & EIE)",
+  "Internals": 17,
+  "Grade": "D",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0450",
+  "Subcode": "R1941041",
+  "Subname": "MICROWAVE AND OPTICAL COMMUNICATION ENGI",
+  "Internals": 16,
+  "Grade": "D",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0450",
+  "Subcode": "R1941042",
+  "Subname": "DATA COMMUNICATIONS & COMPUTER NETWORKS",
+  "Internals": 17,
+  "Grade": "F",
+  "Credits": 0
+ },
+ {
+  "Htno": "19F91A0450",
+  "Subcode": "R1941043",
+  "Subname": "DIGITAL IMAGE AND VIDEO PROCESSING",
+  "Internals": 14,
+  "Grade": "D",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0450",
+  "Subcode": "R1941044",
+  "Subname": "INTERNET OF THINGS LAB",
+  "Internals": 15,
+  "Grade": "A",
+  "Credits": 1.5
+ },
+ {
+  "Htno": "19F91A0450",
+  "Subcode": "R1941045",
+  "Subname": "MICROWAVE AND OPTICAL COMMUNICATIONENGIN",
+  "Internals": 18,
+  "Grade": "S",
+  "Credits": 1.5
+ },
+ {
+  "Htno": "19F91A0450",
+  "Subcode": "R1941046",
+  "Subname": "PROJECT-PART I",
+  "Internals": 19,
+  "Grade": "O",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0450",
+  "Subcode": "R194104C",
+  "Subname": "SMARTSENSORS",
+  "Internals": 17,
+  "Grade": "A",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0450",
+  "Subcode": "R194104H",
+  "Subname": "EMBEDDED SYSTEMS(COMMON TO ECE & EIE)",
+  "Internals": 14,
+  "Grade": "D",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0451",
+  "Subcode": "R1941041",
+  "Subname": "MICROWAVE AND OPTICAL COMMUNICATION ENGI",
+  "Internals": 23,
+  "Grade": "C",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0451",
+  "Subcode": "R1941042",
+  "Subname": "DATA COMMUNICATIONS & COMPUTER NETWORKS",
+  "Internals": 15,
+  "Grade": "D",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0451",
+  "Subcode": "R1941043",
+  "Subname": "DIGITAL IMAGE AND VIDEO PROCESSING",
+  "Internals": 16,
+  "Grade": "C",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0451",
+  "Subcode": "R1941044",
+  "Subname": "INTERNET OF THINGS LAB",
+  "Internals": 18,
+  "Grade": "O",
+  "Credits": 1.5
+ },
+ {
+  "Htno": "19F91A0451",
+  "Subcode": "R1941045",
+  "Subname": "MICROWAVE AND OPTICAL COMMUNICATIONENGIN",
+  "Internals": 19,
+  "Grade": "O",
+  "Credits": 1.5
+ },
+ {
+  "Htno": "19F91A0451",
+  "Subcode": "R1941046",
+  "Subname": "PROJECT-PART I",
+  "Internals": 19,
+  "Grade": "O",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0451",
+  "Subcode": "R194104C",
+  "Subname": "SMARTSENSORS",
+  "Internals": 18,
+  "Grade": "C",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0451",
+  "Subcode": "R194104H",
+  "Subname": "EMBEDDED SYSTEMS(COMMON TO ECE & EIE)",
+  "Internals": 23,
+  "Grade": "C",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0452",
+  "Subcode": "R1941041",
+  "Subname": "MICROWAVE AND OPTICAL COMMUNICATION ENGI",
+  "Internals": 23,
+  "Grade": "B",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0452",
+  "Subcode": "R1941042",
+  "Subname": "DATA COMMUNICATIONS & COMPUTER NETWORKS",
+  "Internals": 19,
+  "Grade": "D",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0452",
+  "Subcode": "R1941043",
+  "Subname": "DIGITAL IMAGE AND VIDEO PROCESSING",
+  "Internals": 16,
+  "Grade": "C",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0452",
+  "Subcode": "R1941044",
+  "Subname": "INTERNET OF THINGS LAB",
+  "Internals": 19,
+  "Grade": "O",
+  "Credits": 1.5
+ },
+ {
+  "Htno": "19F91A0452",
+  "Subcode": "R1941045",
+  "Subname": "MICROWAVE AND OPTICAL COMMUNICATIONENGIN",
+  "Internals": 20,
+  "Grade": "O",
+  "Credits": 1.5
+ },
+ {
+  "Htno": "19F91A0452",
+  "Subcode": "R1941046",
+  "Subname": "PROJECT-PART I",
+  "Internals": 19,
+  "Grade": "O",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0452",
+  "Subcode": "R194104C",
+  "Subname": "SMARTSENSORS",
+  "Internals": 17,
+  "Grade": "B",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0452",
+  "Subcode": "R194104H",
+  "Subname": "EMBEDDED SYSTEMS(COMMON TO ECE & EIE)",
+  "Internals": 18,
+  "Grade": "D",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0453",
+  "Subcode": "R1941041",
+  "Subname": "MICROWAVE AND OPTICAL COMMUNICATION ENGI",
+  "Internals": 20,
+  "Grade": "B",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0453",
+  "Subcode": "R1941042",
+  "Subname": "DATA COMMUNICATIONS & COMPUTER NETWORKS",
+  "Internals": 17,
+  "Grade": "B",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0453",
+  "Subcode": "R1941043",
+  "Subname": "DIGITAL IMAGE AND VIDEO PROCESSING",
+  "Internals": 17,
+  "Grade": "B",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0453",
+  "Subcode": "R1941044",
+  "Subname": "INTERNET OF THINGS LAB",
+  "Internals": 19,
+  "Grade": "O",
+  "Credits": 1.5
+ },
+ {
+  "Htno": "19F91A0453",
+  "Subcode": "R1941045",
+  "Subname": "MICROWAVE AND OPTICAL COMMUNICATIONENGIN",
+  "Internals": 20,
+  "Grade": "O",
+  "Credits": 1.5
+ },
+ {
+  "Htno": "19F91A0453",
+  "Subcode": "R1941046",
+  "Subname": "PROJECT-PART I",
+  "Internals": 19,
+  "Grade": "O",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0453",
+  "Subcode": "R194104C",
+  "Subname": "SMARTSENSORS",
+  "Internals": 21,
+  "Grade": "S",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0453",
+  "Subcode": "R194104H",
+  "Subname": "EMBEDDED SYSTEMS(COMMON TO ECE & EIE)",
+  "Internals": 20,
+  "Grade": "B",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0454",
+  "Subcode": "R1941041",
+  "Subname": "MICROWAVE AND OPTICAL COMMUNICATION ENGI",
+  "Internals": 17,
+  "Grade": "C",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0454",
+  "Subcode": "R1941042",
+  "Subname": "DATA COMMUNICATIONS & COMPUTER NETWORKS",
+  "Internals": 16,
+  "Grade": "C",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0454",
+  "Subcode": "R1941043",
+  "Subname": "DIGITAL IMAGE AND VIDEO PROCESSING",
+  "Internals": 18,
+  "Grade": "A",
+  "Credits": 3
+ },
+ {
+  "Htno": "19F91A0454",
+  "Subcode": "R1941044",
+  "Subname": "INTERNET OF THINGS LAB",
+  "Internals": 19,
+  "Grade": "O",
+  "Credits": 1.5
+ }
+]
