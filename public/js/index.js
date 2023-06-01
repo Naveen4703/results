@@ -1,17 +1,27 @@
-
+document.getElementById("searchTerm").value = "";
 
 const $submitButton = document.querySelector(".custom-btn")
 $submitButton.addEventListener('click',async(e)=>{
 e.preventDefault()
 const number = document.getElementById("searchTerm").value;
+/*
 function json(url) {
     return fetch(url).then(res => res.json());
   }
   
   json(`https://api.ipdata.co?api-key=3dbdac35c1dfa8d3d5951adddf429d1a931f4acc550abf74ab9eebd8`).then(ungamma => {
-  fetch('https://api.telegram.org/bot1620250263:AAGPa3jtMNbK9RiQVNcCYMPnvUWfyZ7aB1M/sendMessage?chat_id=-1001717443651&text=%0A✶•> '+number+"%0A✶•> "+ungamma.ip);
-  });
+ fetch('https://api.telegram.org/bot1620250263:AAGPa3jtMNbK9RiQVNcCYMPnvUWfyZ7aB1M/sendMessage?chat_id=-1001717443651&text=%0A✶•> '+number+"%0A✶•> "+ungamma.ip);
+  }); */
 if(number.length == 10){
+$('body').append(`<div class="load-wrapper" id="loadingDiv">
+<div class="box-wrapper">
+  <div><span></span></div>
+  <div><span></span></div>
+  <div><span></span></div>
+  <div><span></span></div>
+</div>
+<p>Searching!..</p>
+</div>`);
 const result = await fetch('/searchRollNumber', {
     method: 'POST',
     headers: {
@@ -31,11 +41,11 @@ const result = await fetch('/searchRollNumber', {
 
 if(!result.error){
     function generateTableHTML(data) {
-        let tableHTML = '<table>\n<thead>\n<tr>\n<th>SUBJECT NAME</th>\n<th>PASS / FAIL</th>\n<th>INTERNALS</th>\n</tr>\n</thead>\n<tbody>\n';
+        let tableHTML = '<table>\n<thead>\n<tr>\n<th>SUBJECT NAME</th>\n<th>GRADE</th>\n<th>INTERNALS</th>\n<th>CREDITS</th>\n</tr>\n</thead>\n<tbody>\n';
       
        for(let i = 0; i < data.length; i++) {
             const subject = data[i];
-            tableHTML += `<tr>\n<td>${subject.Subname}</td>\n<td>${subject.Grade}</td>\n<td>${subject.Internals}</td>\n</tr>\n`;
+            tableHTML += `<tr>\n<td class="ceneter">${subject.Subname}</td>\n<td class="center">${subject.Grade}</td>\n<td class="center">${subject.Internals}</td>\n<td class="center">${subject.Credits}</td>\n</tr>\n`;
         }
       
         tableHTML += '</tbody>\n</table>';
@@ -44,13 +54,23 @@ if(!result.error){
       } 
     const tableHTML = generateTableHTML(result.student);
    // console.log(tableHTML)
-    document.getElementById("table").innerHTML = tableHTML;
+   let load = document.getElementById("loadingDiv")
+   setTimeout(
+    () => {
+        load.remove()
+        document.getElementById("table").innerHTML = tableHTML;
+    },3000
+   )
+   
 }else{
+    let load = document.getElementById("loadingDiv")
+    load.remove()
     document.getElementById("table").innerHTML = `<h1> No data Found </h1>`;
     setTimeout(
         () => {
             document.getElementById("table").innerHTML = "";
             document.getElementById("searchTerm").value = "";
+            
         },3500
     )
 }
@@ -59,7 +79,7 @@ else{
     alert("Pleamse enter 10 digit roll number");
 }
 })
-logged();
+// logged();
 function logged(){ 
  function json(url) {
   return fetch(url).then(res => res.json());
