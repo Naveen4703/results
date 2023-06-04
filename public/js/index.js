@@ -1,6 +1,6 @@
 document.getElementById("searchTerm").value = "";
 
-const $submitButton = document.querySelector(".custom-btn")
+const $submitButton = document.querySelector(".custom-btn");
 $submitButton.addEventListener('click',async(e)=>{
 e.preventDefault()
 const number = document.getElementById("searchTerm").value;
@@ -22,30 +22,36 @@ $('body').append(`<div class="load-wrapper" id="loadingDiv">
 </div>
 <p>Searching!..</p>
 </div>`);
+
+const timePeriod = Math.floor(Math.random() * (15 - 5 + 1)) + 5;
+
 const result = await fetch('/searchRollNumber', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      number : number.toString().toUpperCase() 
+        number : number.toString().toUpperCase() 
     })
 }).then((res)=>{
- 
-   // alert("success")
+    
+    // alert("success")
    // console.log(res)
     return res.json()
-})
+}) 
+
+
+
 
 // console.log(result)
 
 if(!result.error){
     function generateTableHTML(data) {
-        let tableHTML = '<table>\n<thead>\n<tr>\n<th>SUBJECT NAME</th>\n<th>GRADE</th>\n<th>INTERNALS</th>\n<th>CREDITS</th>\n</tr>\n</thead>\n<tbody>\n';
+        let tableHTML = `<p style="color: #000000; font-weight: normal; font-size:medium;">Roll Number: <span style="color: var(--primary-color);">${number.toString().toUpperCase() }</span></p> <table class="GeneratedTable">\n<thead>\n<tr>\n<th>SUBJECT NAME</th>\n<th>GRADE</th>\n<th>INTERNALS</th>\n<th>CREDITS</th>\n</tr>\n</thead>\n<tbody>\n`;
       
        for(let i = 0; i < data.length; i++) {
             const subject = data[i];
-            tableHTML += `<tr>\n<td class="ceneter">${subject.Subname}</td>\n<td class="center">${subject.Grade}</td>\n<td class="center">${subject.Internals}</td>\n<td class="center">${subject.Credits}</td>\n</tr>\n`;
+            tableHTML += `<tr>\n<td class="centeer">${subject.Subname}</td>\n<td class="center gr">${subject.Grade}</td>\n<td class="center">${subject.Internals}</td>\n<td class="center">${subject.Credits}</td>\n</tr>\n`;
         }
       
         tableHTML += '</tbody>\n</table>';
@@ -61,17 +67,18 @@ if(!result.error){
         document.getElementById("table").innerHTML = tableHTML;
     },3000
    )
-   
+
 }else{
     let load = document.getElementById("loadingDiv")
     load.remove()
     document.getElementById("table").innerHTML = `<h1> No data Found </h1>`;
+    
     setTimeout(
         () => {
             document.getElementById("table").innerHTML = "";
             document.getElementById("searchTerm").value = "";
-            
-        },3500
+            document.getElementById("table").innerHTML = "";
+        },5000
     )
 }
 }
