@@ -4,7 +4,7 @@ const router = new express.Router()
 
 
 router.get("/test",(req,res)=>{
-  res.send({
+  res.status(200).send({
       name:"server is working"
   })
 })
@@ -13,7 +13,7 @@ router.post("/searchRollNumber",(req,res) => {
 
 const rollNumber = req.body.number
 // Read the text file
-fs.readFile('src/jsonFiles/structured-4-1-r19.json', 'utf8', (err, data) => {
+fs.readFile('src/jsonFiles/structured-4-2-r19.json', 'utf8', (err, data) => {
   if (err) {
     console.error('Error reading the file:', err);
     return;
@@ -41,12 +41,12 @@ fs.readFile('src/jsonFiles/structured-4-1-r19.json', 'utf8', (err, data) => {
   if (student) {
     console.log("Student found!");
     console.log("Roll Number:", rollNumber);
-    for(let z =0 ; z < student.length; z++){
+   /* for(let z =0 ; z < student.length; z++){
       if(student[z].Credits < 2 ){
       student[z].Subname += " LAB"
      // console.log(student[z].Subname)
     }
-    }
+    } */
     res.status(200).send({student,roll: `${rollNumber}`})
   } else {
     res.status(200).send({error: "Student not found!"})
