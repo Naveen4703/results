@@ -14,7 +14,8 @@ app.use(serverRouter)
 app.get('/admin', (req, res) => {
    if (req.subdomains.length > 0 && req.subdomains[0] === 'admin') {
   // Logic to serve your admin dashboard (e.g., admin.html) here
-      res.sendFile(path.join(__dirname, '../admin'));
+       return res.redirect('https://results-4p8w-admin.onrender.com');
+      //res.sendFile(path.join(__dirname, '../admin'));
    } else {
     // If accessed directly without the "admin" subdomain, respond with an error message or redirect
     res.status(403).send('Access to the admin dashboard is not allowed.');
