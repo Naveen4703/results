@@ -5,7 +5,7 @@ const router = new express.Router()
 
 router.get("/test",(req,res)=>{
   res.status(200).send({
-      name:"server is working"
+      response:"server is working"
   })
 })
 
